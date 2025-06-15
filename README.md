@@ -1,4 +1,4 @@
-#Claude Desktop MCP Integration
+# Claude Desktop MCP Integration
 
 
 Repository to set up example L9 from (MCP: Build Rich-Context AI Apps with Anthropic)[https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic] short course on Deeplearning.ai.
@@ -7,7 +7,7 @@ Repository to set up example L9 from (MCP: Build Rich-Context AI Apps with Anthr
 
 One difficulty in setting this up was getting the claude_desktop_config.json to work with project in WSL2 Ubuntu.  Here is the solution I found:
 
-`
+```
 {
   "mcpServers": {
     "filesystem": {
@@ -36,4 +36,4 @@ One difficulty in setting this up was getting the claude_desktop_config.json to 
     }
   }
 }
-`
+```
