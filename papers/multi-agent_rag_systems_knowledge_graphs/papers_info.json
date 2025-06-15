@@ -1,0 +1,126 @@
+{
+  "2505.13006v1": {
+    "title": "Evaluating the Performance of RAG Methods for Conversational AI in the Airport Domain",
+    "authors": [
+      "Yuyang Li",
+      "Philip J. M. Kerbusch",
+      "Raimon H. R. Pruim",
+      "Tobias K\u00e4fer"
+    ],
+    "summary": "Airports from the top 20 in terms of annual passengers are highly dynamic\nenvironments with thousands of flights daily, and they aim to increase the\ndegree of automation. To contribute to this, we implemented a Conversational AI\nsystem that enables staff in an airport to communicate with flight information\nsystems. This system not only answers standard airport queries but also\nresolves airport terminology, jargon, abbreviations, and dynamic questions\ninvolving reasoning. In this paper, we built three different\nRetrieval-Augmented Generation (RAG) methods, including traditional RAG, SQL\nRAG, and Knowledge Graph-based RAG (Graph RAG). Experiments showed that\ntraditional RAG achieved 84.84% accuracy using BM25 + GPT-4 but occasionally\nproduced hallucinations, which is risky to airport safety. In contrast, SQL RAG\nand Graph RAG achieved 80.85% and 91.49% accuracy respectively, with\nsignificantly fewer hallucinations. Moreover, Graph RAG was especially\neffective for questions that involved reasoning. Based on our observations, we\nthus recommend SQL RAG and Graph RAG are better for airport environments, due\nto fewer hallucinations and the ability to handle dynamic questions.",
+    "pdf_url": "http://arxiv.org/pdf/2505.13006v1",
+    "published": "2025-05-19"
+  },
+  "2506.09542v1": {
+    "title": "KG-Infused RAG: Augmenting Corpus-Based RAG with External Knowledge Graphs",
+    "authors": [
+      "Dingjun Wu",
+      "Yukun Yan",
+      "Zhenghao Liu",
+      "Zhiyuan Liu",
+      "Maosong Sun"
+    ],
+    "summary": "Retrieval-Augmented Generation (RAG) improves factual accuracy by grounding\nresponses in external knowledge. However, existing methods typically rely on a\nsingle source, either unstructured text or structured knowledge. Moreover, they\nlack cognitively inspired mechanisms for activating relevant knowledge. To\naddress these issues, we propose KG-Infused RAG, a framework that integrates\nKGs into RAG systems to implement spreading activation, a cognitive process\nthat enables concept association and inference. KG-Infused RAG retrieves KG\nfacts, expands the query accordingly, and enhances generation by combining\ncorpus passages with structured facts, enabling interpretable, multi-source\nretrieval grounded in semantic structure. We further improve KG-Infused RAG via\npreference learning on sampled key stages in the pipeline. Experiments on five\nQA benchmarks show that KG-Infused RAG consistently outperforms vanilla RAG (by\n3.8% to 13.8%). Additionally, when integrated into Self-RAG, KG-Infused RAG\nbrings further performance gains, demonstrating its effectiveness and\nversatility as a plug-and-play enhancement module for corpus-based RAG methods.",
+    "pdf_url": "http://arxiv.org/pdf/2506.09542v1",
+    "published": "2025-06-11"
+  },
+  "2504.07103v1": {
+    "title": "FG-RAG: Enhancing Query-Focused Summarization with Context-Aware Fine-Grained Graph RAG",
+    "authors": [
+      "Yubin Hong",
+      "Chaofan Li",
+      "Jingyi Zhang",
+      "Yingxia Shao"
+    ],
+    "summary": "Retrieval-Augmented Generation (RAG) enables large language models to provide\nmore precise and pertinent responses by incorporating external knowledge. In\nthe Query-Focused Summarization (QFS) task, GraphRAG-based approaches have\nnotably enhanced the comprehensiveness and diversity of generated responses.\nHowever, existing GraphRAG-based approaches predominantly focus on\ncoarse-grained information summarization without being aware of the specific\nquery, and the retrieved content lacks sufficient contextual information to\ngenerate comprehensive responses. To address the deficiencies of current RAG\nsystems, we propose Context-Aware Fine-Grained Graph RAG (FG-RAG) to enhance\nthe performance of the QFS task. FG-RAG employs Context-Aware Entity Expansion\nin graph retrieval to expand the coverage of retrieved entities in the graph,\nthus providing enough contextual information for the retrieved content.\nFurthermore, FG-RAG utilizes Query-Level Fine-Grained Summarization to\nincorporate fine-grained details during response generation, enhancing query\nawareness for the generated summarization. Our evaluation demonstrates that\nFG-RAG outperforms other RAG systems in multiple metrics of comprehensiveness,\ndiversity, and empowerment when handling the QFS task. Our implementation is\navailable at https://github.com/BuptWululu/FG-RAG.",
+    "pdf_url": "http://arxiv.org/pdf/2504.07103v1",
+    "published": "2025-03-13"
+  },
+  "2502.09304v2": {
+    "title": "KET-RAG: A Cost-Efficient Multi-Granular Indexing Framework for Graph-RAG",
+    "authors": [
+      "Yiqian Huang",
+      "Shiqi Zhang",
+      "Xiaokui Xiao"
+    ],
+    "summary": "Graph-RAG constructs a knowledge graph from text chunks to improve retrieval\nin Large Language Model (LLM)-based question answering. It is particularly\nuseful in domains such as biomedicine, law, and political science, where\nretrieval often requires multi-hop reasoning over proprietary documents. Some\nexisting Graph-RAG systems construct KNN graphs based on text chunk relevance,\nbut this coarse-grained approach fails to capture entity relationships within\ntexts, leading to sub-par retrieval and generation quality. To address this,\nrecent solutions leverage LLMs to extract entities and relationships from text\nchunks, constructing triplet-based knowledge graphs. However, this approach\nincurs significant indexing costs, especially for large document collections.\n  To ensure a good result accuracy while reducing the indexing cost, we propose\nKET-RAG, a multi-granular indexing framework. KET-RAG first identifies a small\nset of key text chunks and leverages an LLM to construct a knowledge graph\nskeleton. It then builds a text-keyword bipartite graph from all text chunks,\nserving as a lightweight alternative to a full knowledge graph. During\nretrieval, KET-RAG searches both structures: it follows the local search\nstrategy of existing Graph-RAG systems on the skeleton while mimicking this\nsearch on the bipartite graph to improve retrieval quality. We evaluate 13\nsolutions on three real-world datasets, demonstrating that KET-RAG outperforms\nall competitors in indexing cost, retrieval effectiveness, and generation\nquality. Notably, it achieves comparable or superior retrieval quality to\nMicrosoft's Graph-RAG while reducing indexing costs by over an order of\nmagnitude. Additionally, it improves the generation quality by up to 32.4%\nwhile lowering indexing costs by around 20%.",
+    "pdf_url": "http://arxiv.org/pdf/2502.09304v2",
+    "published": "2025-02-13"
+  },
+  "2407.19994v3": {
+    "title": "A Study on the Implementation Method of an Agent-Based Advanced RAG System Using Graph",
+    "authors": [
+      "Cheonsu Jeong"
+    ],
+    "summary": "This study aims to improve knowledge-based question-answering (QA) systems by\novercoming the limitations of existing Retrieval-Augmented Generation (RAG)\nmodels and implementing an advanced RAG system based on Graph technology to\ndevelop high-quality generative AI services. While existing RAG models\ndemonstrate high accuracy and fluency by utilizing retrieved information, they\nmay suffer from accuracy degradation as they generate responses using\npre-loaded knowledge without reprocessing. Additionally, they cannot\nincorporate real-time data after the RAG configuration stage, leading to issues\nwith contextual understanding and biased information. To address these\nlimitations, this study implemented an enhanced RAG system utilizing Graph\ntechnology. This system is designed to efficiently search and utilize\ninformation. Specifically, it employs LangGraph to evaluate the reliability of\nretrieved information and synthesizes diverse data to generate more accurate\nand enhanced responses. Furthermore, the study provides a detailed explanation\nof the system's operation, key implementation steps, and examples through\nimplementation code and validation results, thereby enhancing the understanding\nof advanced RAG technology. This approach offers practical guidelines for\nimplementing advanced RAG systems in corporate services, making it a valuable\nresource for practical application.",
+    "pdf_url": "http://arxiv.org/pdf/2407.19994v3",
+    "published": "2024-07-29"
+  },
+  "2505.16849v2": {
+    "title": "Walk&Retrieve: Simple Yet Effective Zero-shot Retrieval-Augmented Generation via Knowledge Graph Walks",
+    "authors": [
+      "Martin B\u00f6ckling",
+      "Heiko Paulheim",
+      "Andreea Iana"
+    ],
+    "summary": "Large Language Models (LLMs) have showcased impressive reasoning abilities,\nbut often suffer from hallucinations or outdated knowledge. Knowledge Graph\n(KG)-based Retrieval-Augmented Generation (RAG) remedies these shortcomings by\ngrounding LLM responses in structured external information from a knowledge\nbase. However, many KG-based RAG approaches struggle with (i) aligning KG and\ntextual representations, (ii) balancing retrieval accuracy and efficiency, and\n(iii) adapting to dynamically updated KGs. In this work, we introduce\nWalk&Retrieve, a simple yet effective KG-based framework that leverages\nwalk-based graph traversal and knowledge verbalization for corpus generation\nfor zero-shot RAG. Built around efficient KG walks, our method does not require\nfine-tuning on domain-specific data, enabling seamless adaptation to KG\nupdates, reducing computational overhead, and allowing integration with any\noff-the-shelf backbone LLM. Despite its simplicity, Walk&Retrieve performs\ncompetitively, often outperforming existing RAG systems in response accuracy\nand hallucination reduction. Moreover, it demonstrates lower query latency and\nrobust scalability to large KGs, highlighting the potential of lightweight\nretrieval strategies as strong baselines for future RAG research.",
+    "pdf_url": "http://arxiv.org/pdf/2505.16849v2",
+    "published": "2025-05-22"
+  },
+  "2505.12662v1": {
+    "title": "Know3-RAG: A Knowledge-aware RAG Framework with Adaptive Retrieval, Generation, and Filtering",
+    "authors": [
+      "Xukai Liu",
+      "Ye Liu",
+      "Shiwen Wu",
+      "Yanghai Zhang",
+      "Yihao Yuan",
+      "Kai Zhang",
+      "Qi Liu"
+    ],
+    "summary": "Recent advances in large language models (LLMs) have led to impressive\nprogress in natural language generation, yet their tendency to produce\nhallucinated or unsubstantiated content remains a critical concern. To improve\nfactual reliability, Retrieval-Augmented Generation (RAG) integrates external\nknowledge during inference. However, existing RAG systems face two major\nlimitations: (1) unreliable adaptive control due to limited external knowledge\nsupervision, and (2) hallucinations caused by inaccurate or irrelevant\nreferences. To address these issues, we propose Know3-RAG, a knowledge-aware\nRAG framework that leverages structured knowledge from knowledge graphs (KGs)\nto guide three core stages of the RAG process, including retrieval, generation,\nand filtering. Specifically, we introduce a knowledge-aware adaptive retrieval\nmodule that employs KG embedding to assess the confidence of the generated\nanswer and determine retrieval necessity, a knowledge-enhanced reference\ngeneration strategy that enriches queries with KG-derived entities to improve\ngenerated reference relevance, and a knowledge-driven reference filtering\nmechanism that ensures semantic alignment and factual accuracy of references.\nExperiments on multiple open-domain QA benchmarks demonstrate that Know3-RAG\nconsistently outperforms strong baselines, significantly reducing\nhallucinations and enhancing answer reliability.",
+    "pdf_url": "http://arxiv.org/pdf/2505.12662v1",
+    "published": "2025-05-19"
+  },
+  "2411.19539v1": {
+    "title": "Knowledge Management for Automobile Failure Analysis Using Graph RAG",
+    "authors": [
+      "Yuta Ojima",
+      "Hiroki Sakaji",
+      "Tadashi Nakamura",
+      "Hiroaki Sakata",
+      "Kazuya Seki",
+      "Yuu Teshigawara",
+      "Masami Yamashita",
+      "Kazuhiro Aoyama"
+    ],
+    "summary": "This paper presents a knowledge management system for automobile failure\nanalysis using retrieval-augmented generation (RAG) with large language models\n(LLMs) and knowledge graphs (KGs). In the automotive industry, there is a\ngrowing demand for knowledge transfer of failure analysis from experienced\nengineers to young engineers. However, failure events are phenomena that occur\nin a chain reaction, making them difficult for beginners to analyze them. While\nknowledge graphs, which can describe semantic relationships and structure\ninformation is effective in representing failure events, due to their\ncapability of representing the relationships between components, there is much\ninformation in KGs, so it is challenging for young engineers to extract and\nunderstand sub-graphs from the KG. On the other hand, there is increasing\ninterest in the use of Graph RAG, a type of RAG that combines LLMs and KGs for\nknowledge management. However, when using the current Graph RAG framework with\nan existing knowledge graph for automobile failures, several issues arise\nbecause it is difficult to generate executable queries for a knowledge graph\ndatabase which is not constructed by LLMs. To address this, we focused on\noptimizing the Graph RAG pipeline for existing knowledge graphs. Using an\noriginal Q&A dataset, the ROUGE F1 score of the sentences generated by the\nproposed method showed an average improvement of 157.6% compared to the current\nmethod. This highlights the effectiveness of the proposed method for automobile\nfailure analysis.",
+    "pdf_url": "http://arxiv.org/pdf/2411.19539v1",
+    "published": "2024-11-29"
+  },
+  "2412.07189v1": {
+    "title": "When Graph Meets Retrieval Augmented Generation for Wireless Networks: A Tutorial and Case Study",
+    "authors": [
+      "Yang Xiong",
+      "Ruichen Zhang",
+      "Yinqiu Liu",
+      "Dusit Niyato",
+      "Zehui Xiong",
+      "Ying-Chang Liang",
+      "Shiwen Mao"
+    ],
+    "summary": "The rapid development of next-generation networking technologies underscores\ntheir transformative role in revolutionizing modern communication systems,\nenabling faster, more reliable, and highly interconnected solutions. However,\nsuch development has also brought challenges to network optimizations. Thanks\nto the emergence of Large Language Models (LLMs) in recent years, tools\nincluding Retrieval Augmented Generation (RAG) have been developed and applied\nin various fields including networking, and have shown their effectiveness.\nTaking one step further, the integration of knowledge graphs into RAG\nframeworks further enhanced the performance of RAG in networking applications\nsuch as Intent-Driven Networks (IDNs) and spectrum knowledge maps by providing\nmore contextually relevant responses through more accurate retrieval of related\nnetwork information. This paper introduces the RAG framework that integrates\nknowledge graphs in its database and explores such framework's application in\nnetworking. We begin by exploring RAG's applications in networking and the\nlimitations of conventional RAG and present the advantages that knowledge\ngraphs' structured knowledge representation brings to the retrieval and\ngeneration processes. Next, we propose a detailed GraphRAG-based framework for\nnetworking, including a step-by-step tutorial on its construction. Our\nevaluation through a case study on channel gain prediction demonstrates\nGraphRAG's enhanced capability in generating accurate, contextually rich\nresponses, surpassing traditional RAG models. Finally, we discuss key future\ndirections for applying knowledge-graphs-empowered RAG frameworks in\nnetworking, including robust updates, mitigation of hallucination, and enhanced\nsecurity measures for networking applications.",
+    "pdf_url": "http://arxiv.org/pdf/2412.07189v1",
+    "published": "2024-12-10"
+  },
+  "2503.13514v1": {
+    "title": "RAG-KG-IL: A Multi-Agent Hybrid Framework for Reducing Hallucinations and Enhancing LLM Reasoning through RAG and Incremental Knowledge Graph Learning Integration",
+    "authors": [
+      "Hong Qing Yu",
+      "Frank McQuade"
+    ],
+    "summary": "This paper presents RAG-KG-IL, a novel multi-agent hybrid framework designed\nto enhance the reasoning capabilities of Large Language Models (LLMs) by\nintegrating Retrieval-Augmented Generation (RAG) and Knowledge Graphs (KGs)\nwith an Incremental Learning (IL) approach. Despite recent advancements, LLMs\nstill face significant challenges in reasoning with structured data, handling\ndynamic knowledge evolution, and mitigating hallucinations, particularly in\nmission-critical domains. Our proposed RAG-KG-IL framework addresses these\nlimitations by employing a multi-agent architecture that enables continuous\nknowledge updates, integrates structured knowledge, and incorporates autonomous\nagents for enhanced explainability and reasoning. The framework utilizes RAG to\nensure the generated responses are grounded in verifiable information, while\nKGs provide structured domain knowledge for improved consistency and depth of\nunderstanding. The Incremental Learning approach allows for dynamic updates to\nthe knowledge base without full retraining, significantly reducing\ncomputational overhead and improving the model's adaptability. We evaluate the\nframework using real-world case studies involving health-related queries,\ncomparing it to state-of-the-art models like GPT-4o and a RAG-only baseline.\nExperimental results demonstrate that our approach significantly reduces\nhallucination rates and improves answer completeness and reasoning accuracy.\nThe results underscore the potential of combining RAG, KGs, and multi-agent\nsystems to create intelligent, adaptable systems capable of real-time knowledge\nintegration and reasoning in complex domains.",
+    "pdf_url": "http://arxiv.org/pdf/2503.13514v1",
+    "published": "2025-03-14"
+  }
+}

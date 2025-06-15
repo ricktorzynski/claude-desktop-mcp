@@ -1,0 +1,160 @@
+{
+  "2501.09136v3": {
+    "title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+    "authors": [
+      "Aditi Singh",
+      "Abul Ehtesham",
+      "Saket Kumar",
+      "Tala Talaei Khoei"
+    ],
+    "summary": "Large Language Models (LLMs) have revolutionized artificial intelligence (AI)\nby enabling human like text generation and natural language understanding.\nHowever, their reliance on static training data limits their ability to respond\nto dynamic, real time queries, resulting in outdated or inaccurate outputs.\nRetrieval Augmented Generation (RAG) has emerged as a solution, enhancing LLMs\nby integrating real time data retrieval to provide contextually relevant and\nup-to-date responses. Despite its promise, traditional RAG systems are\nconstrained by static workflows and lack the adaptability required for\nmultistep reasoning and complex task management.\n  Agentic Retrieval-Augmented Generation (Agentic RAG) transcends these\nlimitations by embedding autonomous AI agents into the RAG pipeline. These\nagents leverage agentic design patterns reflection, planning, tool use, and\nmultiagent collaboration to dynamically manage retrieval strategies,\niteratively refine contextual understanding, and adapt workflows to meet\ncomplex task requirements. This integration enables Agentic RAG systems to\ndeliver unparalleled flexibility, scalability, and context awareness across\ndiverse applications.\n  This survey provides a comprehensive exploration of Agentic RAG, beginning\nwith its foundational principles and the evolution of RAG paradigms. It\npresents a detailed taxonomy of Agentic RAG architectures, highlights key\napplications in industries such as healthcare, finance, and education, and\nexamines practical implementation strategies. Additionally, it addresses\nchallenges in scaling these systems, ensuring ethical decision making, and\noptimizing performance for real-world applications, while providing detailed\ninsights into frameworks and tools for implementing Agentic RAG.",
+    "pdf_url": "http://arxiv.org/pdf/2501.09136v3",
+    "published": "2025-01-15"
+  },
+  "2506.10408v1": {
+    "title": "Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic Retrieval-Augmented Generation for Industry Challenges",
+    "authors": [
+      "Jintao Liang",
+      "Gang Su",
+      "Huifeng Lin",
+      "You Wu",
+      "Rui Zhao",
+      "Ziyue Li"
+    ],
+    "summary": "Retrieval-Augmented Generation (RAG) has emerged as a powerful framework to\novercome the knowledge limitations of Large Language Models (LLMs) by\nintegrating external retrieval with language generation. While early RAG\nsystems based on static pipelines have shown effectiveness in well-structured\ntasks, they struggle in real-world scenarios requiring complex reasoning,\ndynamic retrieval, and multi-modal integration. To address these challenges,\nthe field has shifted toward Reasoning Agentic RAG, a paradigm that embeds\ndecision-making and adaptive tool use directly into the retrieval process. In\nthis paper, we present a comprehensive review of Reasoning Agentic RAG methods,\ncategorizing them into two primary systems: predefined reasoning, which follows\nfixed modular pipelines to boost reasoning, and agentic reasoning, where the\nmodel autonomously orchestrates tool interaction during inference. We analyze\nrepresentative techniques under both paradigms, covering architectural design,\nreasoning strategies, and tool coordination. Finally, we discuss key research\nchallenges and propose future directions to advance the flexibility,\nrobustness, and applicability of reasoning agentic RAG systems. Our collection\nof the relevant research has been organized into a\nhttps://github.com/ByebyeMonica/Reasoning-Agentic-RAG.",
+    "pdf_url": "http://arxiv.org/pdf/2506.10408v1",
+    "published": "2025-06-12"
+  },
+  "2504.10147v1": {
+    "title": "A Survey of Personalization: From RAG to Agent",
+    "authors": [
+      "Xiaopeng Li",
+      "Pengyue Jia",
+      "Derong Xu",
+      "Yi Wen",
+      "Yingyi Zhang",
+      "Wenlin Zhang",
+      "Wanyu Wang",
+      "Yichao Wang",
+      "Zhaocheng Du",
+      "Xiangyang Li",
+      "Yong Liu",
+      "Huifeng Guo",
+      "Ruiming Tang",
+      "Xiangyu Zhao"
+    ],
+    "summary": "Personalization has become an essential capability in modern AI systems,\nenabling customized interactions that align with individual user preferences,\ncontexts, and goals. Recent research has increasingly concentrated on\nRetrieval-Augmented Generation (RAG) frameworks and their evolution into more\nadvanced agent-based architectures within personalized settings to enhance user\nsatisfaction. Building on this foundation, this survey systematically examines\npersonalization across the three core stages of RAG: pre-retrieval, retrieval,\nand generation. Beyond RAG, we further extend its capabilities into the realm\nof Personalized LLM-based Agents, which enhance traditional RAG systems with\nagentic functionalities, including user understanding, personalized planning\nand execution, and dynamic generation. For both personalization in RAG and\nagent-based personalization, we provide formal definitions, conduct a\ncomprehensive review of recent literature, and summarize key datasets and\nevaluation metrics. Additionally, we discuss fundamental challenges,\nlimitations, and promising research directions in this evolving field. Relevant\npapers and resources are continuously updated at\nhttps://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent.",
+    "pdf_url": "http://arxiv.org/pdf/2504.10147v1",
+    "published": "2025-04-14"
+  },
+  "2506.10844v1": {
+    "title": "CIIR@LiveRAG 2025: Optimizing Multi-Agent Retrieval Augmented Generation through Self-Training",
+    "authors": [
+      "Alireza Salemi",
+      "Mukta Maddipatla",
+      "Hamed Zamani"
+    ],
+    "summary": "This paper presents mRAG, a multi-agent retrieval-augmented generation (RAG)\nframework composed of specialized agents for subtasks such as planning,\nsearching, reasoning, and coordination. Our system uses a self-training\nparadigm with reward-guided trajectory sampling to optimize inter-agent\ncollaboration and enhance response generation. Evaluated on DataMorgana-derived\ndatasets during the SIGIR 2025 LiveRAG competition, mRAG outperforms\nconventional RAG baselines. We further analyze competition outcomes and\nshowcase the framework's strengths with case studies, demonstrating its\nefficacy for complex, real-world RAG tasks.",
+    "pdf_url": "http://arxiv.org/pdf/2506.10844v1",
+    "published": "2025-06-12"
+  },
+  "2505.20096v1": {
+    "title": "MA-RAG: Multi-Agent Retrieval-Augmented Generation via Collaborative Chain-of-Thought Reasoning",
+    "authors": [
+      "Thang Nguyen",
+      "Peter Chin",
+      "Yu-Wing Tai"
+    ],
+    "summary": "We present MA-RAG, a Multi-Agent framework for Retrieval-Augmented Generation\n(RAG) that addresses the inherent ambiguities and reasoning challenges in\ncomplex information-seeking tasks. Unlike conventional RAG methods that rely on\neither end-to-end fine-tuning or isolated component enhancements, MA-RAG\norchestrates a collaborative set of specialized AI agents: Planner, Step\nDefiner, Extractor, and QA Agents, to tackle each stage of the RAG pipeline\nwith task-aware reasoning. Ambiguities may arise from underspecified queries,\nsparse or indirect evidence in retrieved documents, or the need to integrate\ninformation scattered across multiple sources. MA-RAG mitigates these\nchallenges by decomposing the problem into subtasks, such as query\ndisambiguation, evidence extraction, and answer synthesis, and dispatching them\nto dedicated agents equipped with chain-of-thought prompting. These agents\ncommunicate intermediate reasoning and progressively refine the retrieval and\nsynthesis process. Our design allows fine-grained control over information flow\nwithout any model fine-tuning. Crucially, agents are invoked on demand,\nenabling a dynamic and efficient workflow that avoids unnecessary computation.\nThis modular and reasoning-driven architecture enables MA-RAG to deliver\nrobust, interpretable results. Experiments on multi-hop and ambiguous QA\nbenchmarks demonstrate that MA-RAG outperforms state-of-the-art training-free\nbaselines and rivals fine-tuned systems, validating the effectiveness of\ncollaborative agent-based reasoning in RAG.",
+    "pdf_url": "http://arxiv.org/pdf/2505.20096v1",
+    "published": "2025-05-26"
+  },
+  "2410.13509v2": {
+    "title": "RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards",
+    "authors": [
+      "Xinze Li",
+      "Sen Mei",
+      "Zhenghao Liu",
+      "Yukun Yan",
+      "Shuo Wang",
+      "Shi Yu",
+      "Zheni Zeng",
+      "Hao Chen",
+      "Ge Yu",
+      "Zhiyuan Liu",
+      "Maosong Sun",
+      "Chenyan Xiong"
+    ],
+    "summary": "Retrieval-Augmented Generation (RAG) has proven its effectiveness in\nmitigating hallucinations in Large Language Models (LLMs) by retrieving\nknowledge from external resources. To adapt LLMs for the RAG systems, current\napproaches use instruction tuning to optimize LLMs, improving their ability to\nutilize retrieved knowledge. This supervised fine-tuning (SFT) approach focuses\non equipping LLMs to handle diverse RAG tasks using different instructions.\nHowever, it trains RAG modules to overfit training signals and overlooks the\nvarying data preferences among agents within the RAG system. In this paper, we\npropose a Differentiable Data Rewards (DDR) method, which end-to-end trains RAG\nsystems by aligning data preferences between different RAG modules. DDR works\nby collecting the rewards to optimize each agent in the RAG system with the\nrollout method, which prompts agents to sample some potential responses as\nperturbations, evaluates the impact of these perturbations on the whole RAG\nsystem, and subsequently optimizes the agent to produce outputs that improve\nthe performance of the RAG system. Our experiments on various\nknowledge-intensive tasks demonstrate that DDR significantly outperforms the\nSFT method, particularly for LLMs with smaller-scale parameters that depend\nmore on the retrieved knowledge. Additionally, DDR exhibits a stronger\ncapability to align the data preference between RAG modules. The DDR method\nmakes the generation module more effective in extracting key information from\ndocuments and mitigating conflicts between parametric memory and external\nknowledge. All codes are available at https://github.com/OpenMatch/RAG-DDR.",
+    "pdf_url": "http://arxiv.org/pdf/2410.13509v2",
+    "published": "2024-10-17"
+  },
+  "2501.15228v1": {
+    "title": "Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Yiqun Chen",
+      "Lingyong Yan",
+      "Weiwei Sun",
+      "Xinyu Ma",
+      "Yi Zhang",
+      "Shuaiqiang Wang",
+      "Dawei Yin",
+      "Yiming Yang",
+      "Jiaxin Mao"
+    ],
+    "summary": "Retrieval-augmented generation (RAG) is extensively utilized to incorporate\nexternal, current knowledge into large language models, thereby minimizing\nhallucinations. A standard RAG pipeline may comprise several components, such\nas query rewriting, document retrieval, document filtering, and answer\ngeneration. However, these components are typically optimized separately\nthrough supervised fine-tuning, which can lead to misalignments between the\nobjectives of individual modules and the overarching aim of generating accurate\nanswers in question-answering (QA) tasks. Although recent efforts have explored\nreinforcement learning (RL) to optimize specific RAG components, these\napproaches often focus on overly simplistic pipelines with only two components\nor do not adequately address the complex interdependencies and collaborative\ninteractions among the modules. To overcome these challenges, we propose\ntreating the RAG pipeline as a multi-agent cooperative task, with each\ncomponent regarded as an RL agent. Specifically, we present MMOA-RAG, a\nMulti-Module joint Optimization Algorithm for RAG, which employs multi-agent\nreinforcement learning to harmonize all agents' goals towards a unified reward,\nsuch as the F1 score of the final answer. Experiments conducted on various QA\ndatasets demonstrate that MMOA-RAG improves the overall pipeline performance\nand outperforms existing baselines. Furthermore, comprehensive ablation studies\nvalidate the contributions of individual components and the adaptability of\nMMOA-RAG across different RAG components and datasets. The code of MMOA-RAG is\non https://github.com/chenyiqun/MMOA-RAG.",
+    "pdf_url": "http://arxiv.org/pdf/2501.15228v1",
+    "published": "2025-01-25"
+  },
+  "2504.12330v1": {
+    "title": "HM-RAG: Hierarchical Multi-Agent Multimodal Retrieval Augmented Generation",
+    "authors": [
+      "Pei Liu",
+      "Xin Liu",
+      "Ruoyu Yao",
+      "Junming Liu",
+      "Siyuan Meng",
+      "Ding Wang",
+      "Jun Ma"
+    ],
+    "summary": "While Retrieval-Augmented Generation (RAG) augments Large Language Models\n(LLMs) with external knowledge, conventional single-agent RAG remains\nfundamentally limited in resolving complex queries demanding coordinated\nreasoning across heterogeneous data ecosystems. We present HM-RAG, a novel\nHierarchical Multi-agent Multimodal RAG framework that pioneers collaborative\nintelligence for dynamic knowledge synthesis across structured, unstructured,\nand graph-based data. The framework is composed of three-tiered architecture\nwith specialized agents: a Decomposition Agent that dissects complex queries\ninto contextually coherent sub-tasks via semantic-aware query rewriting and\nschema-guided context augmentation; Multi-source Retrieval Agents that carry\nout parallel, modality-specific retrieval using plug-and-play modules designed\nfor vector, graph, and web-based databases; and a Decision Agent that uses\nconsistency voting to integrate multi-source answers and resolve discrepancies\nin retrieval results through Expert Model Refinement. This architecture attains\ncomprehensive query understanding by combining textual, graph-relational, and\nweb-derived evidence, resulting in a remarkable 12.95% improvement in answer\naccuracy and a 3.56% boost in question classification accuracy over baseline\nRAG systems on the ScienceQA and CrisisMMD benchmarks. Notably, HM-RAG\nestablishes state-of-the-art results in zero-shot settings on both datasets.\nIts modular architecture ensures seamless integration of new data modalities\nwhile maintaining strict data governance, marking a significant advancement in\naddressing the critical challenges of multimodal reasoning and knowledge\nsynthesis in RAG systems. Code is available at\nhttps://github.com/ocean-luna/HMRAG.",
+    "pdf_url": "http://arxiv.org/pdf/2504.12330v1",
+    "published": "2025-04-13"
+  },
+  "2504.21252v1": {
+    "title": "Talk Before You Retrieve: Agent-Led Discussions for Better RAG in Medical QA",
+    "authors": [
+      "Xuanzhao Dong",
+      "Wenhui Zhu",
+      "Hao Wang",
+      "Xiwen Chen",
+      "Peijie Qiu",
+      "Rui Yin",
+      "Yi Su",
+      "Yalin Wang"
+    ],
+    "summary": "Medical question answering (QA) is a reasoning-intensive task that remains\nchallenging for large language models (LLMs) due to hallucinations and outdated\ndomain knowledge. Retrieval-Augmented Generation (RAG) provides a promising\npost-training solution by leveraging external knowledge. However, existing\nmedical RAG systems suffer from two key limitations: (1) a lack of modeling for\nhuman-like reasoning behaviors during information retrieval, and (2) reliance\non suboptimal medical corpora, which often results in the retrieval of\nirrelevant or noisy snippets. To overcome these challenges, we propose\nDiscuss-RAG, a plug-and-play module designed to enhance the medical QA RAG\nsystem through collaborative agent-based reasoning. Our method introduces a\nsummarizer agent that orchestrates a team of medical experts to emulate\nmulti-turn brainstorming, thereby improving the relevance of retrieved content.\nAdditionally, a decision-making agent evaluates the retrieved snippets before\ntheir final integration. Experimental results on four benchmark medical QA\ndatasets show that Discuss-RAG consistently outperforms MedRAG, especially\nsignificantly improving answer accuracy by up to 16.67% on BioASQ and 12.20% on\nPubMedQA. The code is available at: https://github.com/LLM-VLM-GSL/Discuss-RAG.",
+    "pdf_url": "http://arxiv.org/pdf/2504.21252v1",
+    "published": "2025-04-30"
+  },
+  "2502.13957v2": {
+    "title": "RAG-Gym: Systematic Optimization of Language Agents for Retrieval-Augmented Generation",
+    "authors": [
+      "Guangzhi Xiong",
+      "Qiao Jin",
+      "Xiao Wang",
+      "Yin Fang",
+      "Haolin Liu",
+      "Yifan Yang",
+      "Fangyuan Chen",
+      "Zhixing Song",
+      "Dengyu Wang",
+      "Minjia Zhang",
+      "Zhiyong Lu",
+      "Aidong Zhang"
+    ],
+    "summary": "Retrieval-augmented generation (RAG) has shown great promise for\nknowledge-intensive tasks and recently advanced with agentic RAG, where\nlanguage agents engage in multi-round interactions with external knowledge\nsources for adaptive information retrieval. However, existing agentic RAG\nmethods often depend on ad-hoc prompt engineering and lack a unified\noptimization framework. We introduce RAG-Gym, a comprehensive platform that\nsystematically explores three optimization dimensions: (1) prompt engineering,\n(2) actor tuning, and (3) critic training. For prompt engineering, we propose\nRe$^2$Search, a novel agent incorporating reasoning reflection that\nsignificantly outperforms standard prompts. In actor tuning, we evaluate three\npopular post-training algorithms with fine-grained process supervision and\nidentify direct preference optimization as the most effective. We further\ndemonstrate that a trained critic can enhance inference by selecting\nhigher-quality intermediate reasoning steps. Together, these findings lead to\nthe optimized Re$^2$Search++ agent, which surpasses most recent methods like\nSearch-R1 by a relative increase of 3.2% to 11.6% in average F1. Finally, we\nexamine the impact of different reward sources and analyze scaling properties\nin training and inference, offering practical insights for agentic RAG\noptimization. The project homepage is available at https://rag-gym.github.io.",
+    "pdf_url": "http://arxiv.org/pdf/2502.13957v2",
+    "published": "2025-02-19"
+  }
+}
