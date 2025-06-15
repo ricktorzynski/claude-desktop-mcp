@@ -1,7 +1,7 @@
 # Claude Desktop MCP Integration
 
 
-Repository to set up example L9 from (MCP: Build Rich-Context AI Apps with Anthropic)[https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic] short course on Deeplearning.ai.
+Repository to set up example L9 from [MCP: Build Rich-Context AI Apps with Anthropic](https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic) short course on Deeplearning.ai.
 
 ## Difficulties
 
